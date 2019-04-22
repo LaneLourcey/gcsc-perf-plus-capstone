@@ -1,0 +1,14 @@
+/*directedit link styling */
+#directedit a#de{color: #0a0a0a;}
+#directedit a#de:hover{ color: #0a0a0a; text-decoration: none; }
+
+/* heading color for faculty profiles */
+.term-heading { font-weight: 600; font-size: 1.0rem; }
+@media screen and (min-width: 40em) { .term-heading { font-size: 1.5625rem; } }
+
+/* linked in hover affect */
+footer .footer-social a:hover .fi-social-linkedin {color: #0077B5; }
+
+/*fix the navigation on mobile view */ 
+.mainnav  .mega-menu.dropdown-pane {display: none; }
+@media screen and (min-width: 40em) { .top-bar .mainnav ul.menu.expanded > li .mega-menu.dropdown-pane { display:block; } }
