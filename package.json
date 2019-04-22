@@ -1,0 +1,12 @@
+{
+  "name": "gcsc-perf-plus-capstone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LaneLourcey/gcsc-perf-plus-capstone.git",
+  "author": "LaneLourcey <samuellourcey@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "puppeteer": "^1.14.0"
+  }
+}
