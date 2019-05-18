@@ -7,6 +7,10 @@
    <meta content="ie=edge" http-equiv="x-ua-compatible" />
    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
    <script src="_resources/js/modernizr-custom.js"></script>
+   <script src="_resources/js/yall.min.js"></script>
+   <script>
+      document.addEventListener("DOMContentLoaded", yall);
+   </script>
    <link href="_resources/css/app-2.css" rel="stylesheet" />
    <link href="_resources/css/gcsc-global.css" rel="stylesheet" />
    <!-- Favicons -->
@@ -119,9 +123,10 @@
                      <div class="row">
                         <div class="medium-4 columns">
                            <picture>
-                              <source srcset="_resources/images/photos/two-female-students.webp" type="image/webp">
-                              <source srcset="_resources/images/photos/two-female-students.jpg" type="image/jpeg">
-                              <img src="_resources/images/photos/two-female-students.jpg"
+                              <source data-srcset="_resources/images/photos/two-female-students.webp" type="image/webp">
+                              <img class="lazy"
+                                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNDI4Ij48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzIiAvPjwvZmlsdGVyPjxwYXRoIGZpbGw9IiNhOWE0OTUiIGQ9Ik0wIDBoNjQwdjQyN0gweiIvPjxnIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJtYXRyaXgoMi41IDAgMCAyLjUgMS4zIDEuMykiIGZpbGwtb3BhY2l0eT0iLjUiPjxlbGxpcHNlIGZpbGw9IiMwMzAwMDAiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoLS44NzMzMiA5NS4xMTExIC00OS4yNzAyIC0uNDUyNCAxNDEuOSAxMzguOSkiLz48ZWxsaXBzZSBmaWxsPSIjZmZmIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0icm90YXRlKC0xMTAgMzUuOCA5LjYpIHNjYWxlKDQ1LjcwODkyIDkyLjE2MjA5KSIvPjxlbGxpcHNlIGZpbGw9IiNmZmYiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJyb3RhdGUoNzUuNSAxNS43IDIyMSkgc2NhbGUoNzQuMjA5OTggMzUuNzIxNTIpIi8+PGVsbGlwc2UgZmlsbD0iIzBlMTgwMCIgcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09InJvdGF0ZSg3Mi4zIC02My43IDg4LjkpIHNjYWxlKDE0LjIxNDM0IDUzLjI5MzM1KSIvPjxlbGxpcHNlIGZpbGw9IiNmZmYiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJyb3RhdGUoMTc5IDIxLjkgODIpIHNjYWxlKDQ5LjA1OTA5IDI3LjY4NDgxKSIvPjxlbGxpcHNlIGZpbGw9IiNmZmYiIGN4PSIyMjgiIGN5PSIzNCIgcng9IjY5IiByeT0iMTkiLz48ZWxsaXBzZSBmaWxsPSIjMTUwMDBiIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KDIyLjI5NDg3IDkuMjY3NzggLTI3LjAzMTc0IDY1LjAyODM5IDE1OC40IDEzOSkiLz48ZWxsaXBzZSBmaWxsPSIjZmZmIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0icm90YXRlKDE3LjUgLTQ2LjMgMjcwKSBzY2FsZSg2NC42Mzc1MSAyMi45MzU5MykiLz48L2c+PC9zdmc+"
+                                 data-srcset="_resources/images/photos/two-female-students.jpg"
                                  alt="Two female student holding books." width="640" height="428">
                            </picture>
                         </div>
@@ -195,8 +200,9 @@
                         <div class="medium-4 columns">
                            <picture>
                               <source srcset="_resources/images/photos/GCSC-Clock-Tower.webp" type="image/webp">
-                              <source srcset="_resources/images/photos/GCSC-Clock-Tower.jpg" type="image/jpeg">
-                              <img src="_resources/images/photos/GCSC-Clock-Tower.jpg"
+                              <img class="lazy"
+                                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNDI4Ij48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzIiAvPjwvZmlsdGVyPjxwYXRoIGZpbGw9IiM3NTgxNzgiIGQ9Ik0wIDBoNjQwdjQyN0gweiIvPjxnIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJtYXRyaXgoMi41IDAgMCAyLjUgMS4zIDEuMykiIGZpbGwtb3BhY2l0eT0iLjUiPjxlbGxpcHNlIGZpbGw9IiNmOGZmZmYiIGN4PSIxODEiIGN5PSIzNiIgcng9IjQ2IiByeT0iMTEzIi8+PGVsbGlwc2UgZmlsbD0iIzJhMzExMiIgcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09InJvdGF0ZSgxMTYgOS45IDY4LjcpIHNjYWxlKDczLjM1NzIxIDgwLjA3MjgpIi8+PGVsbGlwc2UgZmlsbD0iI2FiZDRmZiIgcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09Im1hdHJpeCgtMjU0Ljk5NTM3IDEuNTM3MjIgLS4xMjQ0MiAtMjAuNjM4NCAyMDkuMyA2LjcpIi8+PGVsbGlwc2UgZmlsbD0iIzBiMDAwMCIgY3g9IjIzNyIgY3k9IjEyOCIgcng9IjQ3IiByeT0iMjQiLz48ZWxsaXBzZSBmaWxsPSIjZmZmZmZiIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0icm90YXRlKDg4IDMxLjUgMTM1LjgpIHNjYWxlKDE5LjcyMDY2IDM0Ljg1MDQ5KSIvPjxlbGxpcHNlIGN4PSIyNTUiIGN5PSI4NCIgcng9IjE4IiByeT0iNDYiLz48cGF0aCBmaWxsPSIjZTZmNGZmIiBkPSJNMTYwIDU1aDY5djU3aC02OXoiLz48ZWxsaXBzZSBmaWxsPSIjOTNhM2UwIiBjeD0iNDQiIGN5PSIxMjEiIHJ4PSI0NyIgcnk9IjExIi8+PC9nPjwvc3ZnPg==)"
+                                 data-srcset="_resources/images/photos/GCSC-Clock-Tower.jpg"
                                  alt="GCSC Clock tower overlooking the grassy area outside of the library." width="640"
                                  height="428">
                            </picture>
@@ -257,9 +263,9 @@
                      <div class="row">
                         <div class="medium-4 columns">
                            <picture>
-                              <source srcset="images/student-life/dsc_10_1.webp" type="image/webp">
-                              <source srcset="images/student-life/dsc_10_1.jpg" type="image/jpeg">
-                              <img src="images/student-life/dsc_10_1.jpg"
+                              <source data-srcset="images/student-life/dsc_10_1.webp" type="image/webp">
+                              <img class="lazy" data-srcset="images/student-life/dsc_10_1.jpg"
+                                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNDI2Ij48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzIiAvPjwvZmlsdGVyPjxwYXRoIGZpbGw9IiM2OTYwNGYiIGQ9Ik0wIDBoNjQwdjQyNUgweiIvPjxnIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJtYXRyaXgoMi41IDAgMCAyLjUgMS4zIDEuMykiIGZpbGwtb3BhY2l0eT0iLjUiPjxlbGxpcHNlIGZpbGw9IiNmYmYxZWIiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJyb3RhdGUoLTk1LjQgMTE2LjQgMzcuNCkgc2NhbGUoMjcuNjAyNCAxMDQuNDEyOSkiLz48ZWxsaXBzZSBmaWxsPSIjMjExZjBhIiBjeD0iMjE3IiBjeT0iMzQiIHJ4PSI3MCIgcnk9IjcwIi8+PGVsbGlwc2UgZmlsbD0iIzFmMTMxOSIgY3g9IjM5IiBjeT0iOTUiIHJ4PSIxNDMiIHJ5PSIyNyIvPjxlbGxpcHNlIGZpbGw9IiNmNGM0YzciIGN4PSIxMzAiIGN5PSI1MCIgcng9IjIyIiByeT0iMzYiLz48ZWxsaXBzZSBmaWxsPSIjMTIwZTAwIiBjeD0iMjM2IiBjeT0iMTQ3IiByeD0iMzYiIHJ5PSIzNiIvPjxlbGxpcHNlIGZpbGw9IiNmZmQyYmUiIGN4PSIxODEiIGN5PSIxMjAiIHJ4PSIxOSIgcnk9IjE5Ii8+PGVsbGlwc2UgZmlsbD0iI2IwYWU3ZiIgY3g9IjI3IiBjeT0iMjUiIHJ4PSIzMCIgcnk9IjMwIi8+PGVsbGlwc2UgZmlsbD0iI2U1YmRhNyIgcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09InJvdGF0ZSgtMTA3LjggNzkuNSAzNi41KSBzY2FsZSg2LjEyNTU4IDM4LjY0OTQ2KSIvPjwvZz48L3N2Zz4="
                                  alt="Student in Library taking notes from a book" width="640" height="426">
                            </picture>
                         </div>
@@ -352,10 +358,10 @@
                      <div class="row">
                         <div class="medium-4 columns">
                            <picture>
-                              <source srcset="images/student-life/dsc_0201-2.webp" type="image/webp">
-                              <source srcset="images/student-life/dsc_0201-2.jpg" type="image/jpeg">
-                              <img src="images/student-life/dsc_0201-2.jpg"
-                                 alt="Three Female student  on the grassy area outside Natural Sciences." width="640"
+                              <source data-srcset="images/student-life/dsc_0201-2.webp" type="image/webp">
+                              <img class="lazy" data-srcset="images/student-life/dsc_0201-2.jpg"
+                                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNDMwIj48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzIiAvPjwvZmlsdGVyPjxwYXRoIGZpbGw9IiM4ODkzODciIGQ9Ik0wIDBoNjQwdjQzMEgweiIvPjxnIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJtYXRyaXgoMi41IDAgMCAyLjUgMS4zIDEuMykiIGZpbGwtb3BhY2l0eT0iLjUiPjxlbGxpcHNlIGZpbGw9IiNmZmYiIGN4PSIxNzUiIHJ4PSIxOTMiIHJ5PSI0NSIvPjxlbGxpcHNlIGZpbGw9IiMwOTM0MzkiIGN4PSIxMjIiIGN5PSIxNTUiIHJ4PSI5OCIgcnk9IjkwIi8+PGVsbGlwc2UgZmlsbD0iI2ZmZiIgY3g9IjIwMiIgcng9IjIxMiIgcnk9IjMzIi8+PGVsbGlwc2UgZmlsbD0iIzVmODhlMiIgcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09Im1hdHJpeCgxLjg5NDczIDQ5LjIxNDkyIC0yNC40MjM3MiAuOTQwMjkgMTIyLjUgMTE0LjgpIi8+PGVsbGlwc2UgZmlsbD0iIzQxM2MzOSIgY3g9IjIyNCIgY3k9IjcwIiByeD0iMjkiIHJ5PSIyOSIvPjxlbGxpcHNlIGZpbGw9IiNmMWFiOGQiIGN4PSIxNjQiIGN5PSI3NSIgcng9IjE3IiByeT0iMjkiLz48ZWxsaXBzZSBmaWxsPSIjMGY4NTAwIiBjeD0iNDQiIGN5PSIxMjgiIHJ4PSIyMyIgcnk9IjIzIi8+PGVsbGlwc2UgZmlsbD0iI2EwNTMzMSIgcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09Im1hdHJpeCgtMTQuMjg3MSAyLjIzNzMgLTQuMTQ4MyAtMjYuNDkwNDcgMTIzLjIgNTEpIi8+PC9nPjwvc3ZnPg==)"
+                                 alt="Three Female student on the grassy area outside Natural Sciences." width="640"
                                  height="430">
                            </picture>
                         </div>
@@ -444,10 +450,11 @@
                      <div class="row">
                         <div class="medium-4 columns">
                            <picture>
-                              <source srcset="images/student-life/img_7103-2.webp" type="image/webp">
-                              <source srcset="images/student-life/img_7103-2.jpg" type="image/jpeg">
-                              <img src="images/student-life/img_7103-2.jpg" alt="Student at Graduation" width="640"
-                                 height="427">
+                              <source data-srcset="images/student-life/img_7103-2.webp" type="image/webp">
+                              <img class="lazy"
+                                 src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NDAgNDI3Ij48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzIiAvPjwvZmlsdGVyPjxwYXRoIGZpbGw9IiM3NzYzNTYiIGQ9Ik0wIDBoNjQwdjQyNUgweiIvPjxnIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJtYXRyaXgoMi41IDAgMCAyLjUgMS4zIDEuMykiIGZpbGwtb3BhY2l0eT0iLjUiPjxlbGxpcHNlIGZpbGw9IiNmZmYiIGN4PSIxMiIgY3k9IjE5IiByeD0iNTciIHJ5PSI1NyIvPjxlbGxpcHNlIGZpbGw9IiNmZmYiIGN4PSIyMjEiIGN5PSIxNSIgcng9IjQwIiByeT0iMjUiLz48ZWxsaXBzZSBjeD0iMTU2IiBjeT0iMTMxIiByeD0iMjMiIHJ5PSI3NiIvPjxlbGxpcHNlIGN4PSIyNDIiIGN5PSI2MiIgcng9IjQ0IiByeT0iMjciLz48ZWxsaXBzZSBmaWxsPSIjMDAwMDAzIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KC01Ny4wMDg1NSAzLjQ4NjggLTIuMTc2NCAtMzUuNTgzNzIgMTM0IDIuNSkiLz48ZWxsaXBzZSBmaWxsPSIjZWVmNWYwIiBjeD0iMTgwIiBjeT0iNTciIHJ4PSIxOSIgcnk9IjM1Ii8+PGVsbGlwc2UgZmlsbD0iI2ZmN2ZkMSIgcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09Im1hdHJpeCgtOC44MzE3NyAxOC43Njg0NyAtMjAuODkyNDMgLTkuODMxMjMgMTEzLjQgMTM2LjQpIi8+PHBhdGggZmlsbD0iIzAzMDAwMCIgZD0iTTgwLjYgMTIzLjhMNTcgNjUuM2wzMi40LTEzIDIzLjYgNTguNHoiLz48L2c+PC9zdmc+"
+                                 data-srcset="images/student-life/img_7103-2.jpg" alt="Student at Graduation"
+                                 width="640" height="427">
                            </picture>
                         </div>
                         <div class="medium-4 columns">
@@ -536,8 +543,11 @@
    <section id="prog-finder" class="light-pattern">
       <h2>Find Your Program</h2>
       <div class="row">
-         <div class="medium-3 columns"><img class="shadow" src="_resources/images/photos/320x200-3-female-students.jpg"
-               alt="Three Female Students" width="320" height="200">
+         <div class="medium-3 columns">
+            <img class="shadow lazy"
+               src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgMjAwIj48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzIiAvPjwvZmlsdGVyPjxwYXRoIGZpbGw9IiM2ZDZlNjIiIGQ9Ik0wIDBoMzIwdjIwMEgweiIvPjxnIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJtYXRyaXgoMS4yNSAwIDAgMS4yNSAuNiAuNikiIGZpbGwtb3BhY2l0eT0iLjUiPjxlbGxpcHNlIGZpbGw9IiNjNGM3YzciIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJyb3RhdGUoLTMwIDI0Ni42IC0xMTMuNykgc2NhbGUoMTAxLjIwODc5IDMzLjMzOTIxKSIvPjxlbGxpcHNlIGN4PSIyNyIgY3k9IjIwIiByeD0iNDgiIHJ5PSIzOSIvPjxlbGxpcHNlIGZpbGw9IiMxNTFkMDAiIGN4PSIyMzQiIGN5PSI1OCIgcng9IjU0IiByeT0iNTQiLz48cGF0aCBkPSJNMjA2IDgzbC01MyA5Mi00LTk0eiIvPjxlbGxpcHNlIGZpbGw9IiNjNGM2YmMiIGN4PSIyMjMiIGN5PSIxMzciIHJ4PSI0NCIgcnk9IjMxIi8+PGVsbGlwc2UgZmlsbD0iIzA1MDAwMCIgY3g9IjExNyIgY3k9IjI5IiByeD0iMjMiIHJ5PSIyMyIvPjxlbGxpcHNlIGZpbGw9IiNlY2ZhZmYiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJyb3RhdGUoLTkxLjggMTE2LjQgLTguMSkgc2NhbGUoNTkuODMxNCAxMi4wMDM0OCkiLz48cGF0aCBmaWxsPSIjZmZmZmY3IiBkPSJNMTQwIDBoNDZ2MjJoLTQ2eiIvPjwvZz48L3N2Zz4="
+               data-src="_resources/images/photos/320x200-3-female-students.jpg" alt="Three Female Students" width="320"
+               height="200">
 
             <h3><a
                   href="/academics/?&amp;options=associate-in-arts,associate-in-science,associate-of-science,associates-of-science">ASSOCIATE
@@ -546,16 +556,21 @@
             grab a great job or transfer to a top Florida university to complete your bachelor’s
             degree.
          </div>
-         <div class="medium-3 columns"><img class="shadow" src="_resources/images/photos/320x200-male-student-02.jpg"
-               alt="Male Student" width="320" height="200">
+         <div class="medium-3 columns">
+            <img class="shadow lazy"
+               src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgMjAwIj48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzIiAvPjwvZmlsdGVyPjxwYXRoIGZpbGw9IiM4YTg2N2YiIGQ9Ik0wIDBoMzIwdjIwMEgweiIvPjxnIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJtYXRyaXgoMS4yNSAwIDAgMS4yNSAuNiAuNikiIGZpbGwtb3BhY2l0eT0iLjUiPjxlbGxpcHNlIGZpbGw9IiM0NzJjMDMiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJyb3RhdGUoOTQuMiAxNi44IDI1LjcpIHNjYWxlKDc0LjcyODg1IDEwMi43MTE4MykiLz48ZWxsaXBzZSBmaWxsPSIjYzlkMmRmIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KDQ3LjU4MTc1IDEzLjM4NDM3IC0zMy42NDE1NCAxMTkuNTk2NDQgMTc3LjcgMTEyLjcpIi8+PGVsbGlwc2Ugcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09InJvdGF0ZSgtMTc4LjYgMS43IDU2LjgpIHNjYWxlKDE1LjQ1MTU1IDc5LjY5MjEyKSIvPjxwYXRoIGZpbGw9IiM1ODIzMjQiIGQ9Ik04OCAxNWg1MXY4M0g4OHoiLz48cGF0aCBmaWxsPSIjZGFlMGM4IiBkPSJNOTEgOTguMmwtMzUuNyAxM0w0MSA3MS44bDM1LjctMTN6Ii8+PHBhdGggZmlsbD0iI2NmZGNlMCIgZD0iTTIzNyAxNzVsLTI3LTEzIDIzLTk5eiIvPjxlbGxpcHNlIGZpbGw9IiMwOTBmMDkiIGN4PSIzMyIgY3k9IjQ3IiByeD0iNjYiIHJ5PSI4Ii8+PGVsbGlwc2UgZmlsbD0iI2EzYThjOSIgcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09InJvdGF0ZSgxNTUuNSA1Mi4yIDc5LjIpIHNjYWxlKDU1Ljc2MzQxIDMwLjYwNjE3KSIvPjwvZz48L3N2Zz4="
+               data-src="_resources/images/photos/320x200-male-student-02.jpg" alt="Male Student" width="320"
+               height="200">
 
             <h3><a href="/academics/?&amp;options=certificate,certificates,college-credit-certification">CAREER TRAINING
                   CERTIFICATES</a></h3>
             Jump start your career with one of our 40 affordable vocational, technical or workforce
             certificate programs in business and industry, education, healthcare and public safety.
          </div>
-         <div class="medium-3 columns"><img src="images/student-life/img_2769-2.jpg" alt="GCSC student at the library"
-               width="320" height="212">
+         <div class="medium-3 columns">
+            <img class="lazy"
+               src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgMjEyIj48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzIiAvPjwvZmlsdGVyPjxwYXRoIGZpbGw9IiM5MjkwOTAiIGQ9Ik0wIDBoMzIwdjIxMUgweiIvPjxnIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJtYXRyaXgoMS4yNSAwIDAgMS4yNSAuNiAuNikiIGZpbGwtb3BhY2l0eT0iLjUiPjxlbGxpcHNlIGZpbGw9IiMxYTBkMDEiIGN4PSI4NyIgY3k9Ijg3IiByeD0iMzAiIHJ5PSI3NSIvPjxlbGxpcHNlIGZpbGw9IiNmZmZmZmIiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoLTEwLjkzMzQ0IC05MS4zNzE2IDM3LjUwMDU3IC00LjQ4NzI4IDIyMi4xIDY1LjQpIi8+PGVsbGlwc2UgZmlsbD0iIzQ1Mzk0MSIgcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09Im1hdHJpeCgtMzUuNzQ5MzkgMTQuMTU0MTggLTMyLjQzNDg0IC04MS45MjEwNiAyNS40IDEyOC44KSIvPjxlbGxpcHNlIGZpbGw9IiNkYWYzZmYiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJyb3RhdGUoMTY0IDczLjMgODcuNCkgc2NhbGUoNTYuODIzOSAxNy43Mjc5OSkiLz48ZWxsaXBzZSByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KC0xMi43ODIyOCAtMi4xNjM4IDE0LjM1NjIgLTg0LjgwNjQ3IDEwNi43IDM0LjcpIi8+PGVsbGlwc2UgZmlsbD0iI2ZmZiIgY3g9IjE2MCIgcng9IjEyIiByeT0iNzQiLz48ZWxsaXBzZSBmaWxsPSIjZmZmIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KC03LjIwMDMyIDE5Ljk3NjIyIC0zMS4xNTAwMiAtMTEuMjI3ODYgMjI5IDEwMy4yKSIvPjxlbGxpcHNlIGN4PSIxNDUiIGN5PSI0NiIgcng9IjUiIHJ5PSIzNCIvPjwvZz48L3N2Zz4="
+               data-src="images/student-life/img_2769-2.jpg" alt="GCSC student at the library" width="320" height="212">
 
             <h3><a href="/academics/?&amp;options=bachelor-of-science,bachelors,bachelors-degree">BACHELOR'S DEGREES</a>
             </h3>
@@ -563,7 +578,9 @@
             media, technology management, or organizational management from Florida’s Gulf Coast
             State College.
          </div>
-         <div class="medium-3 columns"><img class="shadow" src="images/communitypeople-300x200.jpg"
+         <div class="medium-3 columns">
+            <img class="shadow lazy" data-src="images/communitypeople-300x200.jpg"
+               src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMjAwIj48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzIiAvPjwvZmlsdGVyPjxwYXRoIGZpbGw9IiM2NjY1NjYiIGQ9Ik0wIDBoMzAwdjE5OUgweiIvPjxnIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjYgLjYpIHNjYWxlKDEuMTcxODgpIiBmaWxsLW9wYWNpdHk9Ii41Ij48ZWxsaXBzZSBmaWxsPSIjZmZmIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KDE4LjY4NiAuMjM1MSAtLjMzMzA1IDI2LjQ3MTgxIDIxMi4zIDEyMy41KSIvPjxlbGxpcHNlIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoMjYuODc3NTggMjUuNDI1MDQgLTUxLjE5MjM0IDU0LjExNjk3IDEzNy4zIDE2OSkiLz48ZWxsaXBzZSBmaWxsPSIjZmZlY2YzIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KDE4LjM5ODE0IC0xOS42NjY2NiAxNC42MDI5NCAxMy42NjEwMyAxNC42IDEwMikiLz48ZWxsaXBzZSBmaWxsPSIjNDY4Y2ZmIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KDE0LjkwOTU0IDE3Ljk2MzYgLTQwLjI2MTQ3IDMzLjQxNjQ1IDIzMiAxMS40KSIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik05MCAzM2wtNjItMS00NC00NHoiLz48ZWxsaXBzZSBmaWxsPSIjZjFkY2M5IiBjeD0iMTQxIiBjeT0iODgiIHJ4PSIxNyIgcnk9IjI1Ii8+PGVsbGlwc2UgZmlsbD0iIzRiMGIwOSIgcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09Im1hdHJpeCgxLjU5ODc0IDQ4LjE5MzI3IC0yNy4wMDQwOSAuODk1ODIgNTQuNyAxNDYuNykiLz48ZWxsaXBzZSBmaWxsPSIjMDkwNTAwIiBjeD0iODUiIGN5PSI3MiIgcng9IjE0IiByeT0iNDEiLz48L2c+PC9zdmc+"
                alt="Image of Corporate College Students" width="300" height="200">
 
             <h3><a href="/community/continuing-education/index.html">Corporate College</a></h3>
@@ -586,9 +603,9 @@
          <div class="medium-1 columns show-for-medium">&nbsp;</div>
          <div class="medium-6 columns">
             <picture>
-               <source srcset="images/gcscstrongthumbnail.webp" type="image/webp">
-               <source srcset="images/gcscstrongthumbnail.jpg" type="image/jpeg">
-               <img class="" src="images/gcscstrongthumbnail.jpg" alt="Stories of #GCSCstrong video.">
+               <source data-srcset="images/gcscstrongthumbnail.webp" type="image/webp">
+               <img class="lazy" data-srcset="images/gcscstrongthumbnail.jpg" alt="Stories of #GCSCstrong video."
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzAgMzY0Ij48ZmlsdGVyIGlkPSJjIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSI1NSIgLz48L2ZpbHRlcj48cGF0aCBmaWxsPSIjNGUzMDM4IiBkPSJNMCAwaDU3MHYzNjJIMHoiLz48ZyBmaWx0ZXI9J3VybCgjYyknIGZpbGwtb3BhY2l0eT0nLjUnPjxlbGxpcHNlIGZpbGw9IiNkZGRiZGIiIGZpbGwtb3BhY2l0eT0iLjUiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoMjI3Ljg2NTQgLTkzLjMxNjEzIDM0LjUwNjczIDg0LjI2MDc4IDQzMi43IDM1OS4yKSIvPjxlbGxpcHNlIGZpbGw9IiMwMDAwMDQiIGZpbGwtb3BhY2l0eT0iLjUiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoLTEwMi40MjQ2MiAtMTAxLjI0NDggMTM4LjE5NjI0IC0xMzkuODA2NjYgMzkzLjggOTguNykiLz48ZWxsaXBzZSBmaWxsPSIjZGY2YTRmIiBmaWxsLW9wYWNpdHk9Ii41IiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KC01MC4xNTg4NSAtMzkuNjEzMDcgMTA3LjUwNDQgLTEzNi4xMjQxOCAxMTEuNCAyNDYuNSkiLz48ZWxsaXBzZSBmaWxsPSIjZmZkY2E2IiBmaWxsLW9wYWNpdHk9Ii41IiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KC00LjA1OTggNjkuMTI1NTQgLTM3LjA2OTIzIC0yLjE3NzEgMTk1IDMwLjYpIi8+PHBhdGggZmlsbD0iI2EwNWFmZiIgZmlsbC1vcGFjaXR5PSIuNSIgZD0iTTU4NC41IDEyOGwtMTc2LTUxLjIgMTk2IDIuMnoiLz48ZWxsaXBzZSBmaWxsLW9wYWNpdHk9Ii41IiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KDg1LjQ4Mzk0IDU0Ljc4MDYzIC0xMzIuNjYzMDcgMjA3LjAxNzcxIDEuMSA2MC42KSIvPjxlbGxpcHNlIGZpbGw9IiNmYmZmZmYiIGZpbGwtb3BhY2l0eT0iLjUiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoOC40NDYwNSAyNC4zOTA3NCAtMzguMzIyNTUgMTMuMjcwMzcgMSAzNDAuNikiLz48cGF0aCBmaWxsPSIjNzMxY2U0IiBmaWxsLW9wYWNpdHk9Ii41IiBkPSJNNDg3LjkgMTcyLjhsMTA4LjMtMTMuMyA5LjIgNzUuMkw0OTcgMjQ3Ljl6Ii8+PC9nPjwvc3ZnPg==">
             </picture>
          </div>
          <div class="medium-4 columns">
@@ -659,10 +676,10 @@
                <div class="large-6 columns">
                   <div class="slide-image">
                      <picture>
-                        <source srcset="images/welcomecenter.webp" type="image/webp">
-                        <source srcset="images/welcomecenter.jpg" type="image/jpeg">
-                        <img src="images/welcomecenter.jpg" alt="Gulf Coast State College Welcome Center" width="569"
-                           height="320">
+                        <source data-srcset="images/welcomecenter.webp" type="image/webp">
+                        <img class="lazy" data-srcset="images/welcomecenter.jpg"
+                           src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NjkgMzIwIj48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIxMiIgLz48L2ZpbHRlcj48cGF0aCBmaWxsPSIjNzk3ZDdmIiBkPSJNMCAwaDU2OXYzMTdIMHoiLz48ZyBmaWx0ZXI9InVybCgjYikiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEuMSAxLjEpIHNjYWxlKDIuMjIyNjYpIiBmaWxsLW9wYWNpdHk9Ii41Ij48ZWxsaXBzZSBmaWxsPSIjZmZmIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0icm90YXRlKDg1IDM2IDQ4KSBzY2FsZSgzOC4wNjU3MSA3MC43MzA0NSkiLz48ZWxsaXBzZSByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KDE3MC44ODYxMyA1Ljk2NzQ4IC0xLjA4MjIzIDMwLjk5MTA4IDEzMC4yIDEzMC45KSIvPjxlbGxpcHNlIGZpbGw9IiNlY2ZmZmYiIGN4PSIyNDEiIGN5PSI1IiByeD0iNzEiIHJ5PSI3MSIvPjxlbGxpcHNlIGZpbGw9IiNmZmYiIGN4PSI1MCIgY3k9IjI4IiByeD0iMTgiIHJ5PSI1NCIvPjxlbGxpcHNlIGZpbGw9IiMwMDBmMDAiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoLTI1Ljg2MjU1IC0uNDE1MDIgLjQ3MzkgLTI5LjUzMTYyIDAgMzkuMSkiLz48ZWxsaXBzZSBmaWxsPSIjYmRiOWIwIiBjeD0iMTgyIiBjeT0iNzgiIHJ4PSI0OCIgcnk9IjI2Ii8+PGVsbGlwc2UgZmlsbD0iI2NkZWNmZiIgcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09Im1hdHJpeCgxNDIuODM0MTUgLTMuNTU0NzQgLjYwNTAzIDI0LjMxMDc0IDE0Mi43IDEpIi8+PGVsbGlwc2UgZmlsbD0iIzFiMDAwMCIgY3g9Ijc5IiBjeT0iMTMzIiByeD0iMTg1IiByeT0iMjEiLz48L2c+PC9zdmc+"
+                           alt="Gulf Coast State College Welcome Center" width="569" height="320">
                      </picture>
 
                   </div>
@@ -692,9 +709,11 @@
                <div class="large-6 columns">
                   <div class="slide-image">
                      <picture>
-                        <source srcset="images/discover/news-images/uvs_program_sea_july2016.webp" type="image/webp">
-                        <source srcset="images/discover/news-images/uvs_program_sea_july2016.jpg" type="image/jpeg">
-                        <img class="" src="images/discover/news-images/uvs_program_sea_july2016.jpg" alt="UVS program"
+                        <source data-srcset="images/discover/news-images/uvs_program_sea_july2016.webp"
+                           type="image/webp">
+                        <img class="lazy"
+                           src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0NDAgMjIwIj48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzIiAvPjwvZmlsdGVyPjxwYXRoIGZpbGw9IiMzOTgwOTUiIGQ9Ik0wIDBoNDQwdjIyMEgweiIvPjxnIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLjkgLjkpIHNjYWxlKDEuNzE4NzUpIiBmaWxsLW9wYWNpdHk9Ii41Ij48ZWxsaXBzZSBmaWxsPSIjZmZmIiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KDQyLjIzNTQ4IC4yMjk0IC0uMDkxMzkgMTYuODI2MTQgMTk5IDk5LjkpIi8+PGVsbGlwc2UgZmlsbD0iIzRlMzQyZCIgY3k9IjEwOCIgcng9IjExMSIgcnk9IjExMSIvPjxlbGxpcHNlIGZpbGw9IiMyMmJlZWMiIGN4PSIxODIiIGN5PSIyOCIgcng9IjEzMiIgcnk9IjQwIi8+PGVsbGlwc2UgZmlsbD0iIzAwNTc5NCIgY3g9IjE0NiIgY3k9IjExMCIgcng9IjI4IiByeT0iMjgiLz48ZWxsaXBzZSBmaWxsPSIjNzE4NzI1IiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KDkuMDc0ODYgLTI2LjI3MDg4IDI0LjY5OTQyIDguNTMyMDIgMTE5LjEgODUuOCkiLz48ZWxsaXBzZSBmaWxsPSIjMDA4YmM2IiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KDYuMDY1MjYgMTMuMTI2NDQgLTI0Ljg4MTA3IDExLjQ5NjY3IDE2Mi4yIDgyLjUpIi8+PGVsbGlwc2UgZmlsbD0iI2UzZmNmZiIgcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09InJvdGF0ZSg5Mi42IDU2LjUgMTQ5KSBzY2FsZSgxNi40ODU3OCAzNC4xNjUxMikiLz48ZWxsaXBzZSBmaWxsPSIjZTE4NGNjIiBjeD0iNTMiIGN5PSIxMyIgcng9IjQyIiByeT0iNSIvPjwvZz48L3N2Zz4="
+                           data-srcset="images/discover/news-images/uvs_program_sea_july2016.jpg" alt="UVS program"
                            width="440" height="220">
                      </picture>
                   </div>
@@ -722,8 +741,11 @@
             <div class="row">
                <div class="large-1 columns show-for-large">&nbsp;</div>
                <div class="large-6 columns">
-                  <div class="slide-image"><img src="images/careercoach.jpg" alt="Career Coach" width="500"
-                        height="313"></div>
+                  <div class="slide-image">
+                     <img class="lazy"
+                        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDAgMzEzIj48ZmlsdGVyIGlkPSJjIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSI1NSIgLz48L2ZpbHRlcj48cGF0aCBmaWxsPSIjZTZmMGYxIiBkPSJNMCAwaDUwMHYzMTJIMHoiLz48ZyBmaWx0ZXI9J3VybCgjYyknIGZpbGwtb3BhY2l0eT0nLjUnPjxlbGxpcHNlIGZpbGw9IiM1ZGFjYjIiIGZpbGwtb3BhY2l0eT0iLjUiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoMTQzLjA1MTQgLTE2LjA0NTc5IDIuNjI0MTYgMjMuMzk0ODkgMjU0LjYgODcuNSkiLz48ZWxsaXBzZSBmaWxsPSIjNmRiNGI5IiBmaWxsLW9wYWNpdHk9Ii41IiByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KC0uODQ4OTMgLTI4LjYwMzQzIDEzOC41NzMyMyAtNC4xMTI3NiAyNDguNyAxNzEuNSkiLz48cGF0aCBmaWxsPSIjMDA1ZDZhIiBmaWxsLW9wYWNpdHk9Ii41IiBkPSJNMTI4IDEyMmg0OC44djExLjhoLTQ4Ljl6Ii8+PHBhdGggZmlsbD0iIzMwOTM5YyIgZmlsbC1vcGFjaXR5PSIuNSIgZD0iTTI5OS4zIDczLjFsNjUuMyA3NS41LTQzLjMgMTguOCAyNS44IDE1eiIvPjxlbGxpcHNlIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjUiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoMi4xMDY4OCAtMjE4LjI2MTI2IDg0LjA5MjYgLjgxMTc1IDQ2MC4xIDE3Ny4xKSIvPjxwYXRoIGZpbGw9IiMwMDRiNWIiIGZpbGwtb3BhY2l0eT0iLjUiIGQ9Ik0xMTIuMyAxMDAuNmw0LTUwLjgtMTcuNyAxNS42eiIvPjxlbGxpcHNlIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iLjUiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoNTIuMTMzNDggNC4zMDg5NiAtMTguMzUyNzYgMjIyLjA0NzA5IDQ3LjggMTQyLjMpIi8+PHBhdGggZmlsbD0iIzMzOTU5ZCIgZmlsbC1vcGFjaXR5PSIuNSIgZD0iTTE0My40IDM4LjRsMjEuOC03LjctNTIgMTguNCAxMjIuNCAzNC4yeiIvPjwvZz48L3N2Zz4="
+                        data-src="images/careercoach.jpg" alt="Career Coach" width="500" height="313">
+                  </div>
                </div>
                <div class="large-4 columns">
                   <div class="slide-text">
@@ -750,8 +772,9 @@
          <div class="small-12 columns">
             <picture>
                <source srcset="_resources/img/GCSC-Logo-Blue-Oval.webp" type="image/webp">
-               <source srcset="_resources/img/GCSC-Logo-Blue-Oval.png" type="image/png">
-               <img alt="GCSC-Logo-Blue-Oval" src="_resources/img/GCSC-Logo-Blue-Oval.png" width="320" height="162">
+               <img class="lazy"
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMjAgMTYyIj48ZmlsdGVyIGlkPSJiIj48ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIzIiAvPjwvZmlsdGVyPjxwYXRoIGZpbGw9IiMyOTQxNTUiIGQ9Ik0wIDBoMzIwdjE2MUgweiIvPjxnIGZpbHRlcj0idXJsKCNiKSIgdHJhbnNmb3JtPSJtYXRyaXgoMS4yNSAwIDAgMS4yNSAuNiAuNikiIGZpbGwtb3BhY2l0eT0iLjUiPjxlbGxpcHNlIGZpbGw9IiNmZmZlMzciIGN4PSIxMjciIGN5PSIyNSIgcng9IjIzIiByeT0iMTkiLz48ZWxsaXBzZSBmaWxsPSIjNTI3ZWEzIiBjeD0iMTQxIiBjeT0iNzMiIHJ4PSI0OCIgcnk9IjQ4Ii8+PGVsbGlwc2Ugcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09InJvdGF0ZSgtMTU1IDExNy4zIC0yNikgc2NhbGUoODkuNjY1MSAyNi4xNjU3NCkiLz48ZWxsaXBzZSByeD0iMSIgcnk9IjEiIHRyYW5zZm9ybT0ibWF0cml4KDkzLjYyNDM0IC00Ni4zMzI1MyAxMS4zNTM0MSAyMi45NDE4OSAyNDAuMyAxMjMpIi8+PGVsbGlwc2UgY3g9IjQiIGN5PSIxMjgiIHJ4PSI2NyIgcnk9IjM1Ii8+PGVsbGlwc2Ugcng9IjEiIHJ5PSIxIiB0cmFuc2Zvcm09Im1hdHJpeCgtMTA2LjgwNjYgNDQuNjc4MTcgLTcuOTQxNyAtMTguOTg1MjYgMjEuMiA2KSIvPjxlbGxpcHNlIGZpbGw9IiM2ZThmYWYiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoNDUuNTUyNjQgLTMuOTA1MjQgMS42NjcxNCAxOS40NDYyOSA2OCA2MS4yKSIvPjxlbGxpcHNlIGZpbGw9IiM4ZmEwYmYiIHJ4PSIxIiByeT0iMSIgdHJhbnNmb3JtPSJtYXRyaXgoLTMxLjAyNTU2IDMuNDUyMzUgLTEuNDExNTQgLTEyLjY4NTIxIDIwNC44IDY2KSIvPjwvZz48L3N2Zz4="
+                  alt="GCSC-Logo-Blue-Oval" data-src="_resources/img/GCSC-Logo-Blue-Oval.png" width="320" height="162">
             </picture>
          </div>
       </div>
