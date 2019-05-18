@@ -577,8 +577,10 @@ button .btn-label, a .btn-label {
       text-decoration: none; }
 
 @media screen and (min-width: 0em) and (max-width: 39.9375em) {
-  .top-bar {
+  .no-webp .top-bar {
     background: url(../img/bkgnd-wave-element-gcsc.png) no-repeat -300px -10px; }
+  .webp .top-bar {
+    background: url(../img/bkgnd-wave-element-gcsc.webp) no-repeat -300px -10px; }
     .top-bar .top-bar-left {
       background: none; }
     .top-bar #mainMenu {
@@ -748,8 +750,11 @@ button .btn-label, a .btn-label {
 
 /***  8. Footer ***/
 
-footer {
+.webp footer {
   background: #eee url(../img/footer-bkgnd.jpg) no-repeat center bottom;
+  background-size: cover; }
+.no-webp footer {
+  background: #eee url(../img/footer-bkgnd.webp) no-repeat center bottom;
   background-size: cover; }
   footer a {
     color: #0068ae; }
@@ -1613,8 +1618,11 @@ table tbody tr.clickable-row {
   padding: 0 .5rem; }
   .pride-slider.slick-initialized {
     display: block; }
-  .pride-slider .slick-slide {
+  .no-webp .pride-slider .slick-slide {
     background: url(../img/bkgnd-subtle-grey-2.png) repeat;
+    padding: 2rem; }
+  .webp .pride-slider .slick-slide {
+    background: url(../img/bkgnd-subtle-grey-2.webp) repeat;
     padding: 2rem; }
   .pride-slider .slick-prev:before, .pride-slider .slick-next:before {
     color: #0266a0 !important;

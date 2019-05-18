@@ -6,6 +6,7 @@
    <meta charset="utf-8" />
    <meta content="ie=edge" http-equiv="x-ua-compatible" />
    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+   <script src="_resources/js/modernizr-custom.js"></script>
    <link href="_resources/css/app-2.css" rel="stylesheet" />
    <link href="_resources/css/gcsc-global.css" rel="stylesheet" />
    <!-- Favicons -->
@@ -42,8 +43,15 @@
          object-fit: fill !important;
       }
 
-      .vegas-wrapper {
+      .no-webp .vegas-wrapper {
          background-image: url("images/atc-fast-blur.jpg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center center;
+      }
+
+      .webp .vegas-wrapper {
+         background-image: url("images/atc-fast-blur.webp");
          background-size: cover;
          background-repeat: no-repeat;
          background-position: center center;
@@ -103,8 +111,14 @@
                      data-options="closeOnClick:true; hover:true; hoverPane:true; hoverDelay:50; vOffset:0"
                      data-hide-for="small">
                      <div class="row">
-                        <div class="medium-4 columns"><img src="_resources/images/photos/two-female-students.jpg"
-                              alt="Two female student holding books." width="640" height="428"></div>
+                        <div class="medium-4 columns">
+                           <picture>
+                              <source srcset="_resources/images/photos/two-female-students.webp" type="image/webp">
+                              <source srcset="_resources/images/photos/two-female-students.jpg" type="image/jpeg">
+                              <img src="_resources/images/photos/two-female-students.jpg"
+                                 alt="Two female student holding books." width="640" height="428">
+                           </picture>
+                        </div>
                         <div class="medium-4 columns">
 
                            <ul>
@@ -172,9 +186,15 @@
                      data-options="closeOnClick:true; hover:true; hoverPane:true; hoverDelay:50; vOffset:0"
                      data-hide-for="small">
                      <div class="row">
-                        <div class="medium-4 columns"><img src="_resources/images/photos/GCSC-Clock-Tower.jpg"
-                              alt="GCSC Clock tower overlooking the grassy area outside of the library." width="640"
-                              height="428"></div>
+                        <div class="medium-4 columns">
+                           <picture>
+                              <source srcset="_resources/images/photos/GCSC-Clock-Tower.webp" type="image/webp">
+                              <source srcset="_resources/images/photos/GCSC-Clock-Tower.jpg" type="image/jpeg">
+                              <img src="_resources/images/photos/GCSC-Clock-Tower.jpg"
+                                 alt="GCSC Clock tower overlooking the grassy area outside of the library." width="640"
+                                 height="428">
+                           </picture>
+                        </div>
                         <div class="medium-4 columns">
 
                            <ul>
@@ -229,8 +249,14 @@
                      data-options="closeOnClick:true; hover:true; hoverPane:true; hoverDelay:50; vOffset:0"
                      data-hide-for="small">
                      <div class="row">
-                        <div class="medium-4 columns"><img src="images/student-life/dsc_10_1.jpg"
-                              alt="Student in Library taking notes from a book" width="640" height="426"></div>
+                        <div class="medium-4 columns">
+                           <picture>
+                              <source srcset="images/student-life/dsc_10_1.webp" type="image/webp">
+                              <source srcset="images/student-life/dsc_10_1.jpg" type="image/jpeg">
+                              <img src="images/student-life/dsc_10_1.jpg"
+                                 alt="Student in Library taking notes from a book" width="640" height="426">
+                           </picture>
+                        </div>
                         <div class="medium-4 columns">
 
                            <ul>
@@ -318,9 +344,15 @@
                      data-options="closeOnClick:true; hover:true; hoverPane:true; hoverDelay:50; vOffset:0"
                      data-hide-for="small">
                      <div class="row">
-                        <div class="medium-4 columns"><img src="images/student-life/dsc_0201-2.jpg"
-                              alt="Three Female student  on the grassy area outside Natural Sciences." width="640"
-                              height="430"></div>
+                        <div class="medium-4 columns">
+                           <picture>
+                              <source srcset="images/student-life/dsc_0201-2.webp" type="image/webp">
+                              <source srcset="images/student-life/dsc_0201-2.jpg" type="image/jpeg">
+                              <img src="images/student-life/dsc_0201-2.jpg"
+                                 alt="Three Female student  on the grassy area outside Natural Sciences." width="640"
+                                 height="430">
+                           </picture>
+                        </div>
                         <div class="medium-4 columns">
 
                            <ul>
@@ -404,8 +436,14 @@
                      data-options="closeOnClick:true; hover:true; hoverPane:true; hoverDelay:50; vOffset:0"
                      data-hide-for="small">
                      <div class="row">
-                        <div class="medium-4 columns"><img src="images/student-life/img_7103-2.jpg"
-                              alt="Student at Graduation" width="640" height="427"></div>
+                        <div class="medium-4 columns">
+                           <picture>
+                              <source srcset="images/student-life/img_7103-2.webp" type="image/webp">
+                              <source srcset="images/student-life/img_7103-2.jpg" type="image/jpeg">
+                              <img src="images/student-life/img_7103-2.jpg" alt="Student at Graduation" width="640"
+                                 height="427">
+                           </picture>
+                        </div>
                         <div class="medium-4 columns">
 
                            <ul>
@@ -540,8 +578,13 @@
 
          </h2>
          <div class="medium-1 columns show-for-medium">&nbsp;</div>
-         <div class="medium-6 columns"><img class="" src="images/gcscstrongthumbnail.jpg"
-               alt="Stories of #GCSCstrong video."></div>
+         <div class="medium-6 columns">
+            <picture>
+               <source srcset="images/gcscstrongthumbnail.webp" type="image/webp">
+               <source srcset="images/gcscstrongthumbnail.jpg" type="image/jpeg">
+               <img class="" src="images/gcscstrongthumbnail.jpg" alt="Stories of #GCSCstrong video.">
+            </picture>
+         </div>
          <div class="medium-4 columns">
             <div class="student-quote">
                <blockquote>
@@ -608,8 +651,15 @@
             <div class="row">
                <div class="large-1 columns show-for-large">&nbsp;</div>
                <div class="large-6 columns">
-                  <div class="slide-image"><img src="images/welcomecenter.jpg"
-                        alt="Gulf Coast State College Welcome Center" width="569" height="320"></div>
+                  <div class="slide-image">
+                     <picture>
+                        <source srcset="imges/welcomecenter.webp" type="image/webp">
+                        <source srcset="imges/welcomecenter.jpg" type="image/jpeg">
+                        <img src="images/welcomecenter.jpg" alt="Gulf Coast State College Welcome Center" width="569"
+                           height="320">
+                     </picture>
+
+                  </div>
                </div>
                <div class="large-4 columns">
                   <div class="slide-text">
@@ -634,8 +684,14 @@
             <div class="row">
                <div class="large-1 columns show-for-large">&nbsp;</div>
                <div class="large-6 columns">
-                  <div class="slide-image"><img class="" src="images/discover/news-images/uvs_program_sea_july2016.jpg"
-                        alt="UVS program" width="440" height="220"></div>
+                  <div class="slide-image">
+                     <picture>
+                        <source srcset="imges/discover/news-images/uvs_program_sea_july2016.webp" type="image/webp">
+                        <source srcset="imges/discover/news-images/uvs_program_sea_july2016.jpg" type="image/jpeg">
+                        <img class="" src="images/discover/news-images/uvs_program_sea_july2016.jpg" alt="UVS program"
+                           width="440" height="220">
+                     </picture>
+                  </div>
                </div>
                <div class="large-4 columns">
                   <div class="slide-text">
@@ -685,8 +741,13 @@
    </section>
    <footer>
       <div class="row footer-logo">
-         <div class="small-12 columns"><img alt="GCSC-Logo-Blue-Oval" src="_resources/img/GCSC-Logo-Blue-Oval.png"
-               width="320" height="162"></div>
+         <div class="small-12 columns">
+            <picture>
+               <source srcset="_resources/img/GCSC-Logo-Blue-Oval.webp" type="image/webp">
+               <source srcset="_resources/img/GCSC-Logo-Blue-Oval.png" type="image/png">
+               <img alt="GCSC-Logo-Blue-Oval" src="_resources/img/GCSC-Logo-Blue-Oval.png" width="320" height="162">
+            </picture>
+         </div>
       </div>
       <div class="row footer-links">
          <div class="medium-4 columns">
