@@ -2279,9 +2279,10 @@ p+.stat {
 
     img {
         max-width: 100%!important
-    }@    page {
+    } 
+    /* @ page {
         margin: .5cm
-    }
+    } */
 
     p,h2,h3 {
         orphans: 3;
@@ -2469,7 +2470,6 @@ p+.stat {
     border-bottom-width: 0;
     position: relative;
     top: .4em;
-    float: right;
     margin-left: 1em;
     display: inline-block
 }
@@ -3247,7 +3247,6 @@ select[multiple] {
     border-left-width: 0;
     border-left-width: 0;
     display: inline-block;
-    vertical-align: middle;
     margin-right: .75rem
 }
 

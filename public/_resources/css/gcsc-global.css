@@ -984,7 +984,7 @@ button .btn-label, a .btn-label {
     display: -webkit-flex;
     /* NEW - Chrome */
     display: flex; }
-	-ms-flex-wrap: wrap;}
+}
 .tabs-panel {
   border-width: 8px;
   border-style: solid;
@@ -1887,14 +1887,14 @@ table.faculty-hours {
 #navlist li
  {
  line-height: 1.2;
-  <!--margin-bottom: .875rem; -->
+  /* margin-bottom: .875rem; */
     margin-bottom: 0; 
  }
 #navcontainer ul
  {
  list-style-type: none;
  text-align: center;
-	<!-- margin-top: 100px;-->
+	/* margin-top: 100px; */
  }
 
  #navcontainer ul li { display: inline; }
