@@ -751,10 +751,10 @@ button .btn-label, a .btn-label {
 /***  8. Footer ***/
 
 .webp footer {
-  background: #eee url(../img/footer-bkgnd.jpg) no-repeat center bottom;
+  background: #eee url(../img/footer-bkgnd.webp) no-repeat center bottom;
   background-size: cover; }
 .no-webp footer {
-  background: #eee url(../img/footer-bkgnd.webp) no-repeat center bottom;
+  background: #eee url(../img/footer-bkgnd.jpg) no-repeat center bottom;
   background-size: cover; }
   footer a {
     color: #0068ae; }
