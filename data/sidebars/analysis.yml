@@ -1,0 +1,11 @@
+- group: Introduction
+  items:
+    - title: WIP. What is GCSC Perf+?
+      link: /
+    - title: WIP. Preparing the source site
+      link: /
+
+- group: Audits
+  items:
+    - title: Running the web audits
+      link: /analysis/running-audits/

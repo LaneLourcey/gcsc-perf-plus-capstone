@@ -1,0 +1,7 @@
+- title: Analysis
+  description: Get started with a web performance audit's analysis phase.
+  link: /analysis/running-audits/
+
+- title: Optimization
+  description: Walk through the optimization process of a web performance audit.
+  link: /optimization/web-image-performance/

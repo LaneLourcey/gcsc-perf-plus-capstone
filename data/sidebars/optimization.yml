@@ -1,0 +1,6 @@
+- group: Optimization
+  items:
+    - title: Web Image Performance
+      link: /optimization/web-image-performance/
+    - title: Resource Loading Optimization
+      link: /optimization/resource-loading-optimization/
